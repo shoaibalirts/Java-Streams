@@ -1,0 +1,3 @@
+Hello World
+Denmark is my homeland
+I am learning Java
