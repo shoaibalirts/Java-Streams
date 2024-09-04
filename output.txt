@@ -1,0 +1,2 @@
+Java is robust
+Java is influenced by C++
