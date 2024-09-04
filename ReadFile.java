@@ -1,6 +1,7 @@
 
 import java.io.BufferedReader;
 import java.io.FileReader;
+import java.io.IOException;
 
 public class ReadFile {
 
@@ -10,6 +11,16 @@ public class ReadFile {
         try {
             fr = new FileReader("input.txt");
             br = new BufferedReader(fr);
-        } catch (Exception e) {
+            String s = br.readLine();
+            while (s != null) {
+                System.out.println(s);
+                s = br.readLine();
+            }
+            br.close();
+            fr.close();
+        } catch (IOException ex) {
+            System.out.println(ex);
+            System.out.println("File not found");
         }
     }
+}
