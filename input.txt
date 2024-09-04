@@ -1,3 +1,3 @@
 Hello World
-Denmark is my homeland
+I live in Danmark
 I am learning Java
